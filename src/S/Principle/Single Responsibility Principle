@@ -1,0 +1,5 @@
+Single Responsibility Principle (SRP):
+
+  Defination: the single responsibility principle says that A class should have only one reason to change. It means that a class should have single resposibility.
+  Problem: A class handles multiple responsibility (e.g. business logic and the repository bothe are in same class).
+  Solution: Split the responsibility in saperate classes. Each class focuses on the single task or single responsibility
