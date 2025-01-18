@@ -1,7 +1,0 @@
-Open Closed Principle:
-
-  Defination: This principle says that the class should open for estension but close for modification.
-  Problem: Add new feature requires modification in the existing code (e.g. adding new invoice printing feature).
-  Solution: Use abstraction (e.g. Interfaces) to allow new feature without altering the existing code.
-
-  Example: InvoicePrinter interface with different implementation like PDFInvoicePrinter, WordInvoicePrinter, ExcelInvoicePrinter.
